@@ -18,7 +18,8 @@ pipeline {
         stage('InstallRequirements') {
             steps {
             	sh '''
-            		bash -c "source ${WORKSPACE}/env/bin/activate && ${WORKSPACE}/env/bin/python ${WORKSPACE}/env/bin/pip install -r requirements.txt"
+			bash -c "ls /klsjhdlf"
+            		#bash -c "source ${WORKSPACE}/env/bin/activate && ${WORKSPACE}/env/bin/python ${WORKSPACE}/env/bin/pip install -r requirements.txt"
                 '''
             }
         }   
